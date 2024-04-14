@@ -43,7 +43,7 @@ export const Main = ({
           `,
                         maskImage: useMotionTemplate`
             radial-gradient(
-              200px circle at ${mouseX}px ${mouseY}px,
+              200px circle at ${mouseX}px ${mouseY}px
               black 0%,
               transparent 100%
             )

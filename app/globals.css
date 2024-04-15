@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +18,7 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -28,6 +30,6 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    white-space: normal;
   }
 }

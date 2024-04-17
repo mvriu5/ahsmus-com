@@ -1,5 +1,5 @@
 import React from "react";
-import {Meteors} from "./meteors";
+import {Meteors} from "@/components/Meteors";
 
 export function MeteorButton() {
     return (
